@@ -1,0 +1,59 @@
+/* Home.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #F5DEB3, #ADD8E6); /* Градиент для фона */
+    background-size: cover; /* Масштабирование фона */
+    background-position: center; /* Центрирование фона */
+    min-height: 100vh; /* Занять всю высоту экрана */
+    min-width: 100vw;  /* Занять всю ширину экрана */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрировать содержимое по вертикали */
+    align-items: center; /* Центрировать содержимое по горизонтали */
+  }
+  
+  .home-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .home-button {
+    background-color: greenyellow;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 55px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .home-button:hover {
+    background-color: darkblue;
+  }
+  
+  .home-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home-list-item {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
