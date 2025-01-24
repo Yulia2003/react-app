@@ -1,0 +1,107 @@
+﻿.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; /* Полная ширина контейнера */
+  background-color: #09afa1a6;
+  border-radius: 10px;
+  padding: 20px;
+  height: auto; /* Автоматическая высота в зависимости от содержимого */
+  max-width: 930px;
+}
+
+.masthead {
+  margin-bottom: 20px;
+}
+
+.masthead h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.masthead p {
+  font-size: 18px;
+  color: #ebe7e7;
+  margin-top: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap; /* Элементы переходят на следующую строку при необходимости */
+  justify-content: center;
+  align-items: center; /* Центрирование по вертикали */
+  gap: 10px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 20px auto; /* Центрирование контейнера */
+  max-width: 830px; /* Максимальная ширина */
+}
+
+.searchContainer > div {
+  flex: none; /* Элементы не растягиваются */
+  width: auto; /* Ширина определяется содержимым */
+}
+
+.destinationField,
+.adultsInput,
+.datePicker {
+  padding: 10px;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 185px;
+}
+
+.searchBtn {
+  padding: 10px 80px;
+  background-color: #09afa1e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.searchBtn:hover {
+  background-color: #068680;
+}
+
+.flatpickr-calendar {
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+.flatpickr-month,
+.flatpickr-next-month,
+.flatpickr-prev-month {
+  color: #333;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+}
+
+.flatpickr-day {
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.flatpickr-day:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.flatpickr-day.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}

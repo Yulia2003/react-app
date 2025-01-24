@@ -1,0 +1,61 @@
+﻿/* RoutesAndTips.module.css */
+.container {
+    margin: 110px;
+    background-size: 100%; /* Растягивает фон по ширине */
+    background-position: center top; /* Центрирует фон по горизонтали, оставляя верхнюю часть на месте */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background: linear-gradient(135deg, #dd7482 0%, #67fcf4 100%);
+    padding: 20px;
+    border-radius: 10px; 
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #393a3a;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .card {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background: linear-gradient(to right, #79d3ce 0%, #e0a99a 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #000000;
+  }
+  
+  .price {
+    color: #a83434;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }

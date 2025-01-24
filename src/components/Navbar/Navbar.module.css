@@ -1,0 +1,86 @@
+﻿:root {
+  --navbar-bg: rgba(2, 167, 159, 0.856); 
+  --navbar-text: #fff;                 
+  --navbar-hover: #f0a500;             
+  --shadow-color: rgba(0, 0, 0, 0.1);  
+}
+
+/* Основной стиль */
+.navbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: var(--navbar-text);
+  background-color: var(--navbar-bg);
+  box-shadow: 0 2px 4px var(--shadow-color);
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Логотип и название */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--navbar-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.navbar-text {
+  color: var(--navbar-text);
+  padding: 5px 10px; 
+  border: 2px solid var(--navbar-text);
+  border-radius: 5px; 
+  display: flex;
+}
+
+.navbar-brand:hover {
+  color: var(--navbar-hover);
+  border-color: var(--navbar-hover); 
+}
+
+/* Меню навигации */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: var(--navbar-text);
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--navbar-hover);
+}

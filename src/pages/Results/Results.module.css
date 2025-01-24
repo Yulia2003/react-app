@@ -1,0 +1,61 @@
+﻿.resultsContainer h1 {
+  text-align: center;
+  margin: 100px 10px 20px;
+  font-size: 50px;
+  color: #ffffff; 
+}
+
+/* Центрирование индикатора загрузки */
+.loadingContainer {
+  background-color: #1e1e1e94;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; /* Высота экрана */
+  color: black;
+}
+
+.loadingContainer h2 {
+  margin-bottom: 15px; 
+  font-size: 50px;
+  color: #ffffff;
+}
+
+/* Карточки отелей */
+.hotelCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hotelCard {
+  background-color: #1e1e1ed7; 
+  color: #fff; 
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 300px; /* Ограничение ширины */
+  text-align: center;
+}
+
+.hotelCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.hotelCard h3 {
+  margin: 10px 0;
+}
+
+.hotelCard p {
+  margin: 5px 0;
+}
+
+.hotelCard p:last-of-type {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #cccccc; 
+}

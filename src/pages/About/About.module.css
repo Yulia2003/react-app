@@ -1,0 +1,42 @@
+﻿.container {
+  margin: 100px 10px 40px 40px; 
+  width: 90%;
+  background: linear-gradient(135deg, rgba(2, 167, 158, 0.637) 0%, rgba(133, 20, 29, 0.637) 100%);
+  padding: 20px 20px 40px 20px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0e9986;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.section img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
