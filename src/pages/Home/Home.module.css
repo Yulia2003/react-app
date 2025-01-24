@@ -44,7 +44,7 @@
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   margin: 20px auto; /* Центрирование контейнера */
-  max-width: 830px; /* Максимальная ширина */
+  max-width: 830px; 
 }
 
 .searchContainer > div {

@@ -32,23 +32,14 @@ const Home: React.FC = () => {
       return;
     }
 
-    try {
-      const destId = await getDestId(destination);
-      if (!destId) {
-        alert('Не удалось найти пункт назначения. Попробуйте снова.');
-        return;
-      }
+    
 
       const checkin = checkinDate.toISOString().split('T')[0];
       const checkout = checkoutDate.toISOString().split('T')[0];
-      const data = await fetchHotels(destId, checkin, checkout, adults);
-      console.log(data);
+      
 
       navigate(`/results?destination=${destination}&checkin=${checkin}&checkout=${checkout}&adults=${adults}`);
-    } catch (error) {
-      console.error('Ошибка при запросе к API:', error);
-      alert('Не удалось загрузить данные. Попробуйте снова.');
-    }
+    
   };
 
   return (

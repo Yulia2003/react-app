@@ -4,7 +4,7 @@ import styles from './Testimonials.module.css';
 interface TestimonialProps {
   name: string;
   comment: string;
-  avatarUrl?: string; // Сделаем это свойство необязательным
+  avatarUrl?: string; 
 }
 
 const testimonials = [
